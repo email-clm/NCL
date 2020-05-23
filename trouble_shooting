@@ -1,1 +1,7 @@
+the nc file is not able to be concatenated
 https://sourceforge.net/p/nco/discussion/9830/thread/f170b7e5/
+ncks -O -h --mk_rec_dmn date 195301.nc 195301.nc
+followed by:
+ncrcat -n 708,6,1,12,1,yyyymm 195301.nc allyears.nc
+
+
